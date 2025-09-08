@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api") // ✅ Correctly maps all endpoints under /api
+@RequestMapping("/api")
 public class UserController {
 
     @Autowired

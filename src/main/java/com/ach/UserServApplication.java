@@ -1,4 +1,4 @@
-package com.ach.user_serv;
+package com.ach;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
