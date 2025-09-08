@@ -1,0 +1,2 @@
+docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=common_pro_db -e MYSQL_USER=devuser -e MYSQL_PASSWORD=devpass -p 3306:3306 -d mysql:8.0
+docker exec -it mysql-container mysql -uroot -proot
